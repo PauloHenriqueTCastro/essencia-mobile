@@ -1,1 +1,17 @@
-
+.tabs {
+  &-bar {
+    background-color: var(--ion-color-primary);
+    &__button {
+      background-color: transparent;
+    }
+    &__icon {
+      font-size: 35px;
+       &::part(icon) {
+        stroke-width: 2.5;
+        stroke: currentColor; // usa a cor definida pelo Ionic
+      }
+      color: #da1212; // cor padrão dos ícones (não selecionado)
+      color-selected: #1689cc;
+    }
+  }
+}

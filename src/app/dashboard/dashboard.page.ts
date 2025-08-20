@@ -5,7 +5,9 @@ import { IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/angular/stan
   selector: 'app-dashboard',
   templateUrl: 'dashboard.page.html',
   styleUrls: ['dashboard.page.scss'],
-  imports: [IonHeader, IonToolbar, IonTitle, IonContent],
+  imports: [
+    // IonHeader, IonToolbar, IonTitle
+     IonContent],
 })
 export class DashboardPage {
   constructor() {}
