@@ -7,7 +7,7 @@ import { triangle, ellipse, square } from 'ionicons/icons';
   selector: 'app-menu',
   templateUrl: 'menu.page.html',
   styleUrls: ['menu.page.scss'],
-  imports: [IonTabs, IonTabBar, IonTabButton, IonIcon, IonLabel],
+  imports: [IonTabs, IonTabBar, IonTabButton, IonIcon],
 })
 export class MenuPage {
   public environmentInjector = inject(EnvironmentInjector);

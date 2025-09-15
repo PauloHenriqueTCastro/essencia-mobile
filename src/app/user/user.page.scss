@@ -1,0 +1,33 @@
+.user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+
+  &__header {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  &__info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    img {
+      width: 80px;
+      height: 80px;
+      border: 4px solid var(--ion-color-tertiary);
+      border-radius: 50%;
+      object-fit: cover;
+    }
+  }
+
+  &__buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}

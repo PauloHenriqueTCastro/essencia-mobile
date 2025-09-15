@@ -1,0 +1,31 @@
+.dashboard {
+  position: relative;
+  height: 100%;
+  padding: 10px;
+
+  &__title {
+    margin-top: 1.5rem;
+    font-size: 40px;
+  }
+
+  &__stats {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    &-item {
+      border: 2px solid var(--ion-color-secondary);
+      border-radius: 5px;
+      margin: 10px;
+      p {
+        color: var(--ion-color-tertiary);
+      }
+    }
+  }
+  .dashboard__chart {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 10px;
+  }
+}

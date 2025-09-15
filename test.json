@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "Teclado Mecânico RGB",
+    "price": 350.90,
+    "quantity": 15,
+    "productUrl": "https://exemplo.com/produtos/teclado-rgb",
+    "user": {
+      "id": 101,
+      "name": "Paulo Henrique"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Mouse Gamer 7200dpi",
+    "price": 120.50,
+    "quantity": 40,
+    "productUrl": "https://exemplo.com/produtos/mouse-gamer",
+    "user": {
+      "id": 101,
+      "name": "Paulo Henrique"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Monitor 27'' Full HD",
+    "price": 899.00,
+    "quantity": 8,
+    "productUrl": "https://exemplo.com/produtos/monitor-27",
+    "user": {
+      "id": 102,
+      "name": "Ana Souza"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Headset Surround 7.1",
+    "price": 280.75,
+    "quantity": 25,
+    "productUrl": "https://exemplo.com/produtos/headset-7.1",
+    "user": {
+      "id": 103,
+      "name": "Carlos Lima"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Cadeira Gamer",
+    "price": 1450.00,
+    "quantity": 5,
+    "productUrl": "https://exemplo.com/produtos/cadeira-gamer",
+    "user": {
+      "id": 104,
+      "name": "Mariana Silva"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Placa de Vídeo RTX 3060",
+    "price": 2399.99,
+    "quantity": 3,
+    "productUrl": "https://exemplo.com/produtos/rtx-3060",
+    "user": {
+      "id": 101,
+      "name": "Paulo Henrique"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Processador Ryzen 7",
+    "price": 1899.50,
+    "quantity": 7,
+    "productUrl": "https://exemplo.com/produtos/ryzen-7",
+    "user": {
+      "id": 105,
+      "name": "Fernanda Oliveira"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Memória RAM 16GB DDR4",
+    "price": 420.00,
+    "quantity": 20,
+    "productUrl": "https://exemplo.com/produtos/ram-16gb",
+    "user": {
+      "id": 106,
+      "name": "João Pedro"
+    }
+  },
+  {
+    "id": 9,
+    "name": "SSD NVMe 1TB",
+    "price": 560.99,
+    "quantity": 12,
+    "productUrl": "https://exemplo.com/produtos/ssd-nvme-1tb",
+    "user": {
+      "id": 107,
+      "name": "Beatriz Costa"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Fonte Modular 650W",
+    "price": 480.00,
+    "quantity": 9,
+    "productUrl": "https://exemplo.com/produtos/fonte-650w",
+    "user": {
+      "id": 108,
+      "name": "Lucas Almeida"
+    }
+  }
+]
